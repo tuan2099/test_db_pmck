@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "qtype_multichoice_options",
+  "info": {
+    "singularName": "qtype-multichoice-option",
+    "pluralName": "qtype-multichoice-options",
+    "displayName": "Qtype Multichoice Option",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "something": {
+      "type": "string"
+    },
+    "layout": {
+      "type": "integer"
+    },
+    "single": {
+      "type": "integer"
+    },
+    "shuffleanswers": {
+      "type": "integer"
+    },
+    "correctfeedback": {
+      "type": "richtext"
+    },
+    "correctfeedbackformat": {
+      "type": "integer"
+    },
+    "partiallycorrectfeedback": {
+      "type": "richtext"
+    },
+    "partiallycorrectfeedbackformat": {
+      "type": "integer"
+    },
+    "incorrectfeedback": {
+      "type": "richtext"
+    },
+    "incorrectfeedbackformat": {
+      "type": "integer"
+    },
+    "answernumbering": {
+      "type": "string"
+    },
+    "shownumcorrect": {
+      "type": "integer"
+    },
+    "showstandardinstruction": {
+      "type": "integer"
+    },
+    "questions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::question.question"
+    }
+  }
+}

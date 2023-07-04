@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "question_answers",
+  "info": {
+    "singularName": "question-answer",
+    "pluralName": "question-answers",
+    "displayName": "Question Answer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "answer": {
+      "type": "richtext"
+    },
+    "questions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::question.question"
+    },
+    "fraction": {
+      "type": "decimal"
+    },
+    "feedback": {
+      "type": "richtext"
+    }
+  }
+}

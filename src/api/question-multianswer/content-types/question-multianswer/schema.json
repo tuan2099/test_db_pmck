@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "question_multianswers",
+  "info": {
+    "singularName": "question-multianswer",
+    "pluralName": "question-multianswers",
+    "displayName": "Question Multianswer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "questions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::question.question"
+    },
+    "squencce": {
+      "type": "richtext"
+    }
+  }
+}

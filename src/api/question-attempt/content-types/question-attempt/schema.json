@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "question_attempts",
+  "info": {
+    "singularName": "question-attempt",
+    "pluralName": "question-attempts",
+    "displayName": "Question Attempt",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rightanswer": {
+      "type": "richtext"
+    },
+    "responsesummary": {
+      "type": "richtext"
+    },
+    "questionsummary": {
+      "type": "richtext"
+    },
+    "maxfraction": {
+      "type": "decimal"
+    },
+    "minfraction": {
+      "type": "decimal"
+    },
+    "maxmark": {
+      "type": "decimal"
+    },
+    "questions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::question.question"
+    }
+  }
+}

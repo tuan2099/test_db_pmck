@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "question_bank_entries",
+  "info": {
+    "singularName": "question-bank-entrie",
+    "pluralName": "question-bank-entries",
+    "displayName": "Question Bank Entrie",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "users_permissions_users": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user"
+    },
+    "question_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::question-category.question-category"
+    }
+  }
+}
