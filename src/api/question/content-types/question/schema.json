@@ -47,6 +47,31 @@
     },
     "qtype": {
       "type": "string"
+    },
+    "qtype_multichoice_options": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::qtype-multichoice-option.qtype-multichoice-option"
+    },
+    "question_answers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::question-answer.question-answer"
+    },
+    "question_attempts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::question-attempt.question-attempt"
+    },
+    "question_multianswers": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::question-multianswer.question-multianswer"
+    },
+    "question_truefalses": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::question-truefalse.question-truefalse"
     }
   }
 }

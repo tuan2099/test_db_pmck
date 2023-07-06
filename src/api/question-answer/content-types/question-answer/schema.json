@@ -15,11 +15,6 @@
     "answer": {
       "type": "richtext"
     },
-    "questions": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::question.question"
-    },
     "fraction": {
       "type": "decimal"
     },

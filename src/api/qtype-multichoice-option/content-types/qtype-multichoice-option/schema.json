@@ -50,11 +50,6 @@
     },
     "showstandardinstruction": {
       "type": "integer"
-    },
-    "questions": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::question.question"
     }
   }
 }

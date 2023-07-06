@@ -12,11 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "questions": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::question.question"
-    },
     "trueanswer": {
       "type": "integer"
     },

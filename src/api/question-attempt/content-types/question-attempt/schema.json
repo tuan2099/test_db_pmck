@@ -29,11 +29,6 @@
     },
     "maxmark": {
       "type": "decimal"
-    },
-    "questions": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::question.question"
     }
   }
 }
