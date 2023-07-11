@@ -4,7 +4,7 @@
   "info": {
     "singularName": "question",
     "pluralName": "questions",
-    "displayName": "question",
+    "displayName": "Question",
     "description": ""
   },
   "options": {
@@ -57,11 +57,6 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::question-answer.question-answer"
-    },
-    "question_attempts": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::question-attempt.question-attempt"
     },
     "question_multianswers": {
       "type": "relation",

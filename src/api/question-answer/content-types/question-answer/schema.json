@@ -20,6 +20,12 @@
     },
     "feedback": {
       "type": "richtext"
+    },
+    "answerformat": {
+      "type": "integer"
+    },
+    "feedbackformat": {
+      "type": "richtext"
     }
   }
 }

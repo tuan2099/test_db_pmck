@@ -1,0 +1,132 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quizzes",
+  "info": {
+    "singularName": "quiz",
+    "pluralName": "quizzes",
+    "displayName": "Quiz"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "richtext"
+    },
+    "introformat": {
+      "type": "integer"
+    },
+    "timeopen": {
+      "type": "integer"
+    },
+    "timeclose": {
+      "type": "integer"
+    },
+    "timelimit": {
+      "type": "integer"
+    },
+    "overduehandling": {
+      "type": "string"
+    },
+    "graceperiod": {
+      "type": "integer"
+    },
+    "preferredbehaviour": {
+      "type": "string"
+    },
+    "canredoquestions": {
+      "type": "integer"
+    },
+    "attempts": {
+      "type": "integer"
+    },
+    "attemptonlast": {
+      "type": "integer"
+    },
+    "grademethod": {
+      "type": "integer"
+    },
+    "decimalpoints": {
+      "type": "integer"
+    },
+    "questiondecimalpoints": {
+      "type": "integer"
+    },
+    "reviewattempt": {
+      "type": "integer"
+    },
+    "reviewcorrectness": {
+      "type": "integer"
+    },
+    "reviewmarks": {
+      "type": "integer"
+    },
+    "reviewspecificfeedback": {
+      "type": "integer"
+    },
+    "reviewgeneralfeedback": {
+      "type": "integer"
+    },
+    "reviewrightanswer": {
+      "type": "integer"
+    },
+    "reviewoverallfeedback": {
+      "type": "integer"
+    },
+    "questionsperpage": {
+      "type": "integer"
+    },
+    "navmethod": {
+      "type": "string"
+    },
+    "shuffleanswers": {
+      "type": "integer"
+    },
+    "sumgrades": {
+      "type": "decimal"
+    },
+    "grade": {
+      "type": "integer"
+    },
+    "timecreated": {
+      "type": "integer"
+    },
+    "timemodified": {
+      "type": "integer"
+    },
+    "password": {
+      "type": "string"
+    },
+    "subnet": {
+      "type": "string"
+    },
+    "browsersecurity": {
+      "type": "string"
+    },
+    "delay1": {
+      "type": "biginteger"
+    },
+    "delay2": {
+      "type": "biginteger"
+    },
+    "showuserpicture": {
+      "type": "integer"
+    },
+    "showblocks": {
+      "type": "integer"
+    },
+    "completionattemptsexhausted": {
+      "type": "integer"
+    },
+    "completionminattempts": {
+      "type": "biginteger"
+    },
+    "allowofflineattempts": {
+      "type": "biginteger"
+    }
+  }
+}
