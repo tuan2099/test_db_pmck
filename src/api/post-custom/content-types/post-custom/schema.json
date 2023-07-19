@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "post_customs",
+  "info": {
+    "singularName": "post-custom",
+    "pluralName": "post-customs",
+    "displayName": "Post-custom",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "premium": {
+      "type": "boolean"
+    }
+  }
+}
