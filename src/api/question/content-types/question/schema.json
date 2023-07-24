@@ -67,6 +67,15 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::question-truefalse.question-truefalse"
+    },
+    "question_media": {
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

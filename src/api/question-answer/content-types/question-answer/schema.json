@@ -26,6 +26,15 @@
     },
     "feedbackformat": {
       "type": "richtext"
+    },
+    "answers_media": {
+      "allowedTypes": [
+        "images",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
