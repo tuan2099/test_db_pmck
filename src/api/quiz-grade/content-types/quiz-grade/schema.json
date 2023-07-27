@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quiz_grades",
+  "info": {
+    "singularName": "quiz-grade",
+    "pluralName": "quiz-grades",
+    "displayName": "Quiz_grade"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "grade": {
+      "type": "decimal"
+    }
+  }
+}
