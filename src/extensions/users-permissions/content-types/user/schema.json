@@ -65,10 +65,11 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "quiz_grades": {
+    "quiz_grade": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::quiz-grade.quiz-grade"
+      "relation": "oneToOne",
+      "target": "api::quiz-grade.quiz-grade",
+      "inversedBy": "user"
     }
   }
 }

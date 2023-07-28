@@ -13,6 +13,18 @@
   "attributes": {
     "grade": {
       "type": "decimal"
+    },
+    "quiz": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::quiz.quiz",
+      "mappedBy": "quiz_grade"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "mappedBy": "quiz_grade"
     }
   }
 }
