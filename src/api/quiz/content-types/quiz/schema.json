@@ -39,6 +39,12 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::quiz-grade.quiz-grade"
+    },
+    "timeopen": {
+      "type": "datetime"
+    },
+    "timeclose": {
+      "type": "datetime"
     }
   }
 }
